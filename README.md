@@ -29,13 +29,13 @@ Use the **sitemap URL** in both cases.
 
 ### ES AI agents
 1. Admin Center → **AI → AI agents → Sources → Add source → Web crawler → Connect**.
-2. Name: `Acme Intranet`, URL: your sitemap URL, **No authentication** → **Save**.
+2. Name: `Acme Intranet`, URL: your sitemap URL (`https://<your-github-user>.github.io/<repo>/sitemap.xml`), **No authentication** → **Save**.
 3. Open your ES AI agent → **Sources → Add source** → Web crawler → *Acme Intranet* → **Save**.
 4. The crawler syncs **every 6 hours**. If you see 0 items, wait for the next sync before troubleshooting.
 
 ### CX AI agents
 1. Knowledge admin → **Settings → Search settings → Crawlers → Manage → Add Crawler**.
-2. Name: `Acme Intranet`, URL: your sitemap URL → **Sync**.
+2. Name: `Acme Intranet`, URL: your sitemap URL (`https://<your-github-user>.github.io/<repo>/sitemap.xml`) → **Sync**.
 3. Use the crawled content as a knowledge source in your AI agent. See the Help Center article *"Connecting knowledge sources to power generative replies in AI agents"*.
 
 ---
