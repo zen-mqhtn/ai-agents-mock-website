@@ -1,4 +1,4 @@
-# Mock website for Zendesk AI agent demos
+# Mock intranet website for Zendesk AI agent demos
 
 A fictional **"Acme Intranet"** (5 pages) that you can connect as a **web crawler knowledge source** for **Employee Service (ES) and CX AI agents**. You don't need admin rights on any real system, and you don't need scripts: GitHub Pages hosts it for free and **generates the sitemap automatically**.
 
