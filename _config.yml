@@ -1,0 +1,16 @@
+# GitHub Pages builds this site with Jekyll.
+# jekyll-sitemap generates /sitemap.xml and /robots.txt automatically with the correct
+# absolute URLs for this repo (https://<user>.github.io/<repo>/...). No editing needed.
+#
+# Do NOT add sitemap.xml, robots.txt or .nojekyll to this repo. Any of them turns the
+# automatic generation off.
+
+title: Acme Intranet
+description: Fictional intranet used as a knowledge source for Zendesk AI agent demos.
+
+plugins:
+  - jekyll-sitemap
+
+# Not published on the website
+exclude:
+  - README.md

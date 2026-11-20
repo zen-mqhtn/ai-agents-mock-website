@@ -1,0 +1,28 @@
+* { box-sizing: border-box; }
+body { margin: 0; font-family: -apple-system, "Segoe UI", Roboto, Arial, sans-serif; color: #172b4d; background: #f4f5f7; line-height: 1.6; }
+header { background: #0f766e; color: #fff; padding: 12px 32px; display: flex; align-items: center; gap: 28px; }
+header .logo { font-weight: 800; font-size: 18px; letter-spacing: .5px; color: #fff; text-decoration: none; }
+header nav a { color: #ccfbf1; text-decoration: none; margin-right: 18px; font-size: 14px; }
+header nav a:hover { color: #fff; }
+.layout { display: flex; max-width: 1180px; margin: 0 auto; padding: 24px 32px; gap: 28px; }
+aside { width: 240px; flex-shrink: 0; }
+aside h4 { font-size: 12px; text-transform: uppercase; color: #6b778c; margin: 0 0 8px; letter-spacing: .6px; }
+aside a { display: block; color: #42526e; text-decoration: none; padding: 5px 8px; border-radius: 4px; font-size: 14px; }
+aside a:hover, aside a.active { background: #e6fcf5; color: #0f766e; }
+main { flex: 1; background: #fff; border-radius: 6px; padding: 28px 40px 40px; box-shadow: 0 1px 2px rgba(9,30,66,.15); }
+.breadcrumb { font-size: 13px; color: #6b778c; margin-bottom: 6px; }
+.breadcrumb a { color: #6b778c; }
+h1 { margin: 0 0 6px; font-size: 28px; }
+.pagemeta { font-size: 13px; color: #6b778c; margin-bottom: 22px; padding-bottom: 14px; border-bottom: 1px solid #dfe1e6; }
+h2 { font-size: 20px; margin-top: 28px; }
+table { border-collapse: collapse; width: 100%; margin: 12px 0; font-size: 14px; }
+th { background: #f4f5f7; text-align: left; }
+td, th { border: 1px solid #dfe1e6; padding: 8px 10px; vertical-align: top; }
+.panel { border-left: 4px solid #0f766e; background: #e6fcf5; padding: 12px 16px; border-radius: 3px; margin: 16px 0; }
+.panel.warn { border-color: #ff991f; background: #fffae6; }
+.cards { display: grid; grid-template-columns: repeat(2, 1fr); gap: 16px; margin-top: 18px; }
+.card { border: 1px solid #dfe1e6; border-radius: 6px; padding: 16px; text-decoration: none; color: inherit; display: block; }
+.card:hover { border-color: #0f766e; }
+.card h3 { margin: 0 0 6px; color: #0f766e; font-size: 16px; }
+.card p { margin: 0; font-size: 14px; color: #42526e; }
+footer { text-align: center; font-size: 12px; color: #6b778c; padding: 20px; }
